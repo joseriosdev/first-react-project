@@ -1,6 +1,6 @@
 # What I learnt
 
-In this repository, you will found a single project deployed "Calculadora de Impuestos" (loan calculator) and the src code for another project based on [Brad Traversy React Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8) where he creates a Task Tracker and uses [Json Server](https://www.npmjs.com/package/json-server) as backend so he can do htpp requests. A lot of fun for this and great to start learning.
+In this repository, you will found a single project deployed **["Calculadora de Impuestos"](https://joseriosdev.github.io/first-react-project/)** (loan calculator) and the src code for another project based on [Brad Traversy React Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8) where he creates a Task Tracker and uses [Json Server](https://www.npmjs.com/package/json-server) as backend so he can do htpp requests. A lot of fun for this and great to start learning.
 
 ## Initializating a React App
 
@@ -20,6 +20,16 @@ In this repository, you will found a single project deployed "Calculadora de Imp
 2. Add a script on your package.json with `"server": "json-server --watch db.json --port 5005"`
 3. Then run the recently created script `npm run server`
 4. Now you can use rest methods with the server
+
+## Creating the Github Page
+
+1. Push your app
+2. Run `npm i gh-pages`
+3. Add on package.json and above "dependencies" this `"homepage": "http://githubusername.githu.io/repository-name",`
+4. Add the script: `"predeploy": "npm run build"`
+5. Add another script: `"deploy": "gh-pages -d build"`
+6. Run `npm run deploy`
+7. Now on the settings of your github repo you can see that pages is now available
 
 # React Terminology
 ### _In 'simple' words_
