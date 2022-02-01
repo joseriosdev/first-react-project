@@ -45,6 +45,6 @@ In this repository, you will found a single project deployed **["Calculadora de 
 > There are two data types that handles the cmp data, Props and State, props are declared by its parent element while using attributes and are static. When data will change, we use state instead, both have info about the cmp but state changes mostly becase user events.
 * __Context API or Redux -__ While working with cmp state, you most likely going to need it in other parts of your app, that's when is useful the use of Redux, there is a solution for that coming up next.
 * __Global State -__ Or App level state is when you use the state concept on the App cmp (which the one and only that renders your site), is helpful when many cmp use certain state.
-* __React Hooks -__ Hooks are for UI functionality as components are for UI design. It allows you to use classes and you can also create your own hooks
+* __React Hooks -__ Hooks are for UI functionality as components are for UI design. It allows you to use classes and you can also create your own hooks.
 * __Component lifecycle -__ Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: **Mounting** _(put the element into the DOM)_, **Updating** _(whenever is a change on the cmp state or props)_, and **Unmounting** _(when a cmp is removed from the DOM)_.
-
+* __Routing -__ Routing is the ability to move between different parts of an application when a user enters a URL or clicks an element (link, button, icon, image etc) within the application. Can be done for web development by installing a package, run `npm i react-router-dom`.
